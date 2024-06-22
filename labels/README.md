@@ -39,10 +39,11 @@ The radiologist (N.D.) annotated the nipple and the pectoralis muscle line from 
 ### Qualitative Labels (qualitativeLabel)
 After the lines and nipple bounding box other radiologist (E.C.) assessed the images for breast positioning and classified the MLO views as poor or good based on ACR quality standards (Hendrick et al., 1999).
 
-> **Note:**
-> We do not explicitly provide coordinates for PNL; however, the PNL can be automatically generated using a 90° rule, extending from the nipple coordinate to the pectoral muscle line. This ensures that all PNLs are perpendicular to the pectoral muscle during the evaluation phase.
+**Note:**
+We do not explicitly provide coordinates for PNL; however, the PNL can be automatically generated using a 90° rule, extending from the nipple coordinate to the pectoral muscle line. This ensures that all PNLs are perpendicular to the pectoral muscle during the evaluation phase.
 
-<img width="450" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/e4c116b0-df16-4092-aea4-cee7209c7263">
+<img width="500" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/bee1bcda-8b5a-4538-aaf5-75bb32e44f0e">
+
 
 ### Dataset Details
 
