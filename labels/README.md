@@ -1,21 +1,5 @@
 # Description for labels
 
-## Citation
-If you use these labels in your research, please cite as follows:
-```
-@article{tanyel2024mammographic,
-  title={Mammographic Breast Positioning Assessment via Deep Learning},
-  author={Tanyel, Toygar and Denizoglu, Nurper and Seker, Mustafa Ege and Alis, Deniz and Karaarslan, Ercan and Aribal, Erkin and Oksuz, Ilkay},
-  journal={MICCAI, Deep-Brea3th 2024: A Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in Breast Care},
-  volume={},
-  number={},
-  pages={},
-  year={2024},
-  publisher={}
-}
-```
-Will be updated with publication.
-
 ## Definition of Findings Used in the Study
 
 | Label                   | Explanation                                                                                   |
@@ -29,18 +13,24 @@ Will be updated with publication.
 
 In the labeling process, we used the publicly available VinDr Mammography open-access large-scale dataset (Nguyen et al., 2023). The VinDr Mammography dataset includes 5000 mammography exams collected from opportunistic screening settings in two hospitals in Vietnam between 2018 and 2020.
 
-For our labeling, we randomly selected 1000 exams from the VinDr Mammography dataset, including only mediolateral oblique (MLO) views. 
+For our labeling, we randomly selected 1000 exams from the VinDr Mammography dataset, including only mediolateral oblique (MLO) views. Ground truth annotations were carried out by two board-certified breast radiologist (N.D. and E.C.) with over five years of experience in breast imaging. 
 
 ### Quantitative Labels (data)
-Ground truth annotations were carried out by two board-certified breast radiologist (N.D. and E.C.) with over five years of experience in breast imaging. The radiologist annotated the mammograms using a specialized workstation equipped with a browser-based annotation tool (https://matrix.md.ai) and a 6-megapixel diagnostic monitor (Radiforce RX 660, EIZO). All mammograms were reviewed in the Digital Imaging and Communications in Medicine (DICOM) format.
+The radiologist (N.D.) annotated the mammograms using a specialized workstation equipped with a browser-based annotation tool (https://matrix.md.ai) and a 6-megapixel diagnostic monitor (Radiforce RX 660, EIZO), reviewing all images in the Digital Imaging and Communications in Medicine (DICOM) format. Annotations included the nipple and the pectoralis muscle line from the inferior end on MLO views, in accordance with the guidelines of the American College of Radiology and the Royal Australian and New Zealand College of Radiologists (Australian Screening Advisory Committee, 2001; Hendrick et al., 1999; Royal Australian and New Zealand College of Radiologists, 2002).
 
-The radiologist (N.D.) annotated the nipple and the pectoralis muscle line from the inferior end on MLO views, following the guidelines of the American College of Radiology and the Royal Australian and New Zealand College of Radiologists (Australian Screening Advisory Committee, 2001; Hendrick et al., 1999; Royal Australian and New Zealand College of Radiologists, 2002).
+**Note:**
+We do not explicitly provide coordinates for PNL; however, the PNL can be automatically generated using a 90° rule, extending from the nipple coordinate to the pectoral muscle line. This ensures that all PNLs are perpendicular to the pectoral muscle during the evaluation phase.
 
 ### Qualitative Labels (qualitativeLabel)
 After the lines and nipple bounding box other radiologist (E.C.) assessed the images for breast positioning and classified the MLO views as poor or good based on ACR quality standards (Hendrick et al., 1999).
 
-**Note:**
-We do not explicitly provide coordinates for PNL; however, the PNL can be automatically generated using a 90° rule, extending from the nipple coordinate to the pectoral muscle line. This ensures that all PNLs are perpendicular to the pectoral muscle during the evaluation phase.
+
+| Dataset     | Automatically Drawn PNL-Based Positioning | Expert Qualitative Assessment |
+|:-----------:|:-----------------------------------------:|:-----------------------------:|
+| Training    | 967 good, 633 poor                        | 1,185 good, 415 poor          |
+| Validation  | 108 good, 92 poor                         | 132 good, 68 poor             |
+| Testing     | 123 good, 77 poor                         | 146 good, 54 poor             |
+
 
 <img width="500" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/bee1bcda-8b5a-4538-aaf5-75bb32e44f0e">
 
@@ -61,6 +51,22 @@ We do not explicitly provide coordinates for PNL; however, the PNL can be automa
 - **ManufacturerModelName**: The manufacturer's model name of the imaging device.
 - **PhotometricInterpretation**: The photometric interpretation used in the image.
 - **Split**: Designation of the dataset split including Train, Validation, and Test.
+
+## Citation
+If you use these labels in your research, please cite as follows:
+```
+@article{tanyel2024mammographic,
+  title={Mammographic Breast Positioning Assessment via Deep Learning},
+  author={Tanyel, Toygar and Denizoglu, Nurper and Seker, Mustafa Ege and Alis, Deniz and Karaarslan, Ercan and Aribal, Erkin and Oksuz, Ilkay},
+  journal={MICCAI, Deep-Brea3th 2024: A Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in Breast Care},
+  volume={},
+  number={},
+  pages={},
+  year={2024},
+  publisher={}
+}
+```
+Will be updated with publication.
 
 ### References
 
