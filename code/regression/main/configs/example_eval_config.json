@@ -1,0 +1,9 @@
+{
+    "split_file": "../annotations/unified_data_with_splits.csv",
+    "details_file": "../data/transformation_details.csv",
+    "base_image_dir": "../data/images",
+    "best_model_path": "../UNet_baseline.pth",
+    "batch_size": 1,
+    "target_task": "all",
+    "model_type": "UNet"
+}

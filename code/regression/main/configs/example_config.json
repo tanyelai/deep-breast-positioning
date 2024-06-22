@@ -1,0 +1,20 @@
+{
+    "model_type": "UNet",
+    "split_file": "../annotations/unified_data_with_splits.csv",
+    "details_file": "../data/transformation_details.csv",
+    "base_image_dir": "../data/images",
+    "batch_size": 8,
+    "num_epochs": 300,
+    "learning_rate": 1e-4,
+    "best_model_path": "../UNet_baseline.pth",
+    "w": 3,
+    "epsilon": 1.5,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0,
+    "base_lr": 1e-5,
+    "max_lr": 5e-4,
+    "step_size_down": 50,
+    "device": "cuda",
+    "target_task": "all"
+}
