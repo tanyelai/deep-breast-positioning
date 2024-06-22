@@ -23,14 +23,8 @@ If you use this software, data, or methodology in your research, please cite as 
 Will be updated with publication.
 
 ## Labels
-We do not explicitly provide coordinates for PNL; however, the PNL can be automatically generated using a 90° rule, extending from the nipple coordinate to the pectoral muscle line. This ensures that all PNLs are perpendicular to the pectoral muscle during the evaluation phase.
+For detailed descriptions of the labels, visit [this link](https://github.com/tanyelai/deep-breast-positioning/tree/main/labels).
 
-**Label	Explanation**
-1.	**Nipple Bounding Box:**	A bounding box surrounding the nipple
-2.	**Pectoralis Muscle Line:**	A line delineating and starting from the inferior end of the pectoralis muscle
-3.	**Posterior Nipple Line (PNL):**	A line perpendicular to the pectoralis muscle line, starting from the center of the nipple bounding box
-
-<img width="450" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/e4c116b0-df16-4092-aea4-cee7209c7263">
 
 ## Installation
 To set up the project environment:
@@ -65,7 +59,7 @@ Test results on automatically generated quality labels extracted from radiologis
 | CoordAtt UNet | **88.63 ± 2.84**    | **90.25 ± 4.04**    | 86.04 ± 3.41        |
 
 ## Example Predictions
-<img width="708" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/6eecf161-f136-46bd-b9f3-51f8fa201bcb">
+<img width="983" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/2307adc8-95b1-4805-b8d4-5fb9e1107967">
 
 
 
