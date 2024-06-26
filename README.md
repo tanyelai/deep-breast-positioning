@@ -6,22 +6,6 @@ Despite profound advancements in deep learning for breast cancer diagnostics, th
 
 This GitHub repository contains the source code, models, and instructions necessary for deploying and studying the task of mammography positioning.
 
-## Citation
-If you use this software, data, or methodology in your research, please cite as follows:
-```
-@article{tanyel2024mammographic,
-  title={Mammographic Breast Positioning Assessment via Deep Learning},
-  author={Tanyel, Toygar and Denizoglu, Nurper and Seker, Mustafa Ege and Alis, Deniz and Karaarslan, Ercan and Aribal, Erkin and Oksuz, Ilkay},
-  journal={MICCAI, Deep-Brea3th 2024: A Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in Breast Care},
-  volume={},
-  number={},
-  pages={},
-  year={2024},
-  publisher={}
-}
-```
-Will be updated with publication.
-
 ## Labels
 For detailed descriptions of the labels, visit [this link](https://github.com/tanyelai/deep-breast-positioning/tree/main/labels).
 
@@ -61,7 +45,21 @@ Test results on automatically generated quality labels extracted from radiologis
 ## Example Predictions
 <img width="983" alt="image" src="https://github.com/tanyelai/deep-breast-positioning/assets/44132720/2307adc8-95b1-4805-b8d4-5fb9e1107967">
 
-
+## Citation
+If you use this software, data, or methodology in your research, please cite as follows:
+```
+@article{tanyel2024mammographic,
+  title={Mammographic Breast Positioning Assessment via Deep Learning},
+  author={Tanyel, Toygar and Denizoglu, Nurper and Seker, Mustafa Ege and Alis, Deniz and Karaarslan, Ercan and Aribal, Erkin and Oksuz, Ilkay},
+  journal={MICCAI, Deep-Brea3th 2024: A Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in Breast Care},
+  volume={},
+  number={},
+  pages={},
+  year={2024},
+  publisher={}
+}
+```
+Will be updated with publication.
 
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
