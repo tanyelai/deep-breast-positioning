@@ -55,18 +55,17 @@ After the lines and nipple bounding box other radiologist (E.C.) assessed the im
 ## Citation
 If you use these labels in your research, please cite as follows:
 ```
-@article{tanyel2024mammographic,
-  title={Mammographic Breast Positioning Assessment via Deep Learning},
-  author={Tanyel, Toygar and Denizoglu, Nurper and Seker, Mustafa Ege and Alis, Deniz and Karaarslan, Ercan and Aribal, Erkin and Oksuz, Ilkay},
-  journal={MICCAI, Deep-Brea3th 2024: A Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment Challenges in Breast Care},
-  volume={},
-  number={},
-  pages={},
-  year={2024},
-  publisher={}
+@misc{tanyel2024mammographicbreastpositioningassessment,
+      title={Mammographic Breast Positioning Assessment via Deep Learning}, 
+      author={Toygar Tanyel and Nurper Denizoglu and Mustafa Ege Seker and Deniz Alis and Esma Cerekci and Ercan Karaarslan and Erkin Aribal and Ilkay Oksuz},
+      year={2024},
+      eprint={2407.10796},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2407.10796}, 
 }
 ```
-Will be updated with publication.
+Will be updated after publication. Accepted at MICCAI 2024, Deep Breast Workshop.
 
 ### References
 
