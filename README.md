@@ -57,7 +57,6 @@ If you use this software, data, or methodology in your research, please cite as 
   organization={Springer}
 }
 ```
-Will be updated after publication in MICCAI-2024.
 
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
