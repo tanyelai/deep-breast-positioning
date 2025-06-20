@@ -63,7 +63,6 @@ If you use these labels in your research, please cite as follows:
   year={2024},
   organization={Springer}
 }
-}
 ```
 Will be updated after publication. Accepted at MICCAI 2024, Deep Breast Workshop.
 
